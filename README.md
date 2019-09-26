@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
-##Deployed on Firebase
+## Deployed on Firebase
 Visit the link https://the-irresoluteduck-collection.firebaseapp.com/ to view the live site.
 
 ## Development server
