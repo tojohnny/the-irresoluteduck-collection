@@ -1,10 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-  <a class="navbar-brand" href="#">
-    <img src="assets/images/logo.png" width="45" height="45" alt="">
-    The irresoluteduck Collection</a>
+  <a class="navbar-brand" [routerLink]="['/']">
+    <img src="assets/images/logo.png"
+         width="45" height="45" alt="">
+    The irresoluteduck Collection
+  </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -12,15 +17,77 @@
 
     <ul class="navbar-nav mr-auto">
 
-      <li class="nav-item active">
-        <a class="nav-link" href="https://tojohnny.wordpress.com">
-          <button type="button" class="btn btn-light">Development Blog</button>
+      <li class="nav-item">
+        <a class="nav-link"
+           [routerLink]="['/about-me']">
+          <button type="button"
+                  class="btn btn-outline-light"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="Default landing page & to learn more about me!">
+                  About Me
+          </button>
         </a>
       </li>
 
-      <li class="nav-item active">
-        <a class="nav-link" href="https://github.com/tojohnny/the-irresoluteduck-collection">
-          <button type="button" class="btn btn-light">Source Code</button>
+      <li class="nav-item">
+        <a class="nav-link"
+           [routerLink]="['/resume']">
+          <button type="button"
+                  class="btn btn-outline-light"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="Hire me!">
+                  Resume</button>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link"
+           [routerLink]="['/portfolio']">
+          <button type="button"
+                  class="btn btn-outline-light"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="What I have done.">
+                  Portfolio
+          </button>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link"
+           [routerLink]="['/contact']">
+          <button type="button"
+                  class="btn btn-outline-light"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="Need to get in touch?">
+                  Contact
+          </button>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link"
+           href="https://tojohnny.wordpress.com">
+          <button type="button"
+                  class="btn btn-outline-light"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="WordPress Blog on Development">
+                  Development Blog</button>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link"
+           href="https://github.com/tojohnny/the-irresoluteduck-collection">
+          <button type="button"
+                  class="btn btn-outline-light"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="Come take a peek behind the curtains!">Source Code</button>
         </a>
       </li>
 
