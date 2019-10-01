@@ -16,14 +16,14 @@ import { ContactComponent } from './contact/contact.component';
 @NgModule({
   imports: [
     BrowserModule,
+    PdfViewerModule,
+    FormsModule,
     RouterModule.forRoot([
       {path: '', component: HomepageComponent},
       {path: 'about-me', component: AboutMeComponent},
       {path: 'resume', component: ResumeComponent},
       {path: 'portfolio', component: PortfolioComponent},
       {path: 'contact', component: ContactComponent}]),
-    PdfViewerModule,
-    FormsModule,
   ],
   declarations: [
     AppComponent,
