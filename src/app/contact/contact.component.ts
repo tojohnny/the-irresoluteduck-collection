@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpResponse, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
@@ -17,7 +17,7 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
   }
 
-  sendEmail(emailAddress, content) {
+   sendEmail(emailAddress, content) {
     const url = '${https://us-central1-the-irresoluteduck-collection.cloudfunctions.net}/httpEmail'
     const Params = new HttpParams();
     const Headers = new HttpHeaders({'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*'});
@@ -26,11 +26,11 @@ export class ContactComponent implements OnInit {
     Params.set('from', 'hello@angularfirebase.com');
     Params.set('content', content);
 
-    return this.http.post(url, Params, Headers).toPromise().then( res => {
+    /**return this.http.post(url, Params, Headers).toPromise().then( res => {
       console.log(res);
     })
       .catch(err => {
         console.log(err);
-      });
+      });**/
   }
 }

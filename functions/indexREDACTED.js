@@ -1,4 +1,4 @@
-`Add sendgrid API key in and change file name to index.js before usage.`
+/*Add sendgrid API key in and change file name to index.js before usage.*/
 
 const functions = require('firebase-functions');
 
