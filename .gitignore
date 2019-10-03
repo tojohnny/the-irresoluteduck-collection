@@ -4,6 +4,10 @@
 
 ### Angular ###
 ## Angular ##
+
+# SendGrid API key
+functions/index.js
+
 # compiled output
 dist/
 tmp/
