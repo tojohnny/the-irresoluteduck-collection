@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
+## Website Personal Logo
+It is a self-created logo using Adobe Illustrator CC 2019 for personal and commercial use.
+
+## Site Background Images
+All images that are used on the site can be found on https://www.pexels.com/. View the licensing information here https://www.pexels.com/photo-license/.
+
 ## Deployed on Firebase
 Visit the link https://the-irresoluteduck-collection.firebaseapp.com/ to view the live site.
 
