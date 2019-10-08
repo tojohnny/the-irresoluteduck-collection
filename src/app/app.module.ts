@@ -13,6 +13,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -34,7 +36,9 @@ import { ContactComponent } from './contact/contact.component';
     HomepageComponent,
     ResumeComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

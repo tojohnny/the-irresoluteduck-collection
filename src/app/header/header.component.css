@@ -1,0 +1,11 @@
+.header {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  background: url("src/assets/images/pexels-cup-desk-drink.jpg");
+  background-size: 2560px 1440px;
+  background-repeat: no-repeat;
+}
