@@ -8,4 +8,5 @@ body {
   background: url("src/assets/images/pexels-cup-desk-drink.jpg");
   background-size: 2560px 1440px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
