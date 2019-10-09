@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule} from '@angular/common/http';
 
 import { PdfViewerModule} from 'ng2-pdf-viewer';
 
@@ -21,7 +20,6 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     PdfViewerModule,
     FormsModule,
-    HttpClientModule,
     RouterModule.forRoot([
       {path: '', component: HomepageComponent},
       {path: 'about-me', component: AboutMeComponent},
