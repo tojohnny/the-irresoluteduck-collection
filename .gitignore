@@ -5,9 +5,6 @@
 ### Angular ###
 ## Angular ##
 
-# API KEYS
-src/config.js
-
 # compiled output
 dist/
 tmp/

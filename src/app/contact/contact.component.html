@@ -18,20 +18,20 @@
       <form id="contactForm">
 
         <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="What is your first and last name?">
+          <label for="senderName">Name</label>
+          <input type="text" id="senderName" class="form-control" placeholder="What is your first and last name?">
         </div>
 
 
         <div class="form-group">
-          <label for="email">E-mail</label>
-          <input type="email" class="form-control" id="email" placeholder="What is your e-mail address?">
+          <label for="senderEmail">E-mail</label>
+          <input type="email" id="senderEmail" class="form-control" placeholder="What is your e-mail address?">
         </div>
 
 
         <div class="form-group">
-          <label for="reason">Why are you contacting me?</label>
-          <select class="form-control" id="reason">
+          <label for="senderReason">Why are you contacting me?</label>
+          <select id="senderReason" class="form-control">
             <option>I would like to speak with you.</option>
             <option>I would like to request a feature.</option>
             <option>I would like to give feedback.</option>
@@ -43,25 +43,17 @@
 
 
         <div class="form-group">
-          <label for="message">More to say?</label>
-          <textarea rows="8" class="form-control" id="message" placeholder="Enter an additional message here."></textarea>
+          <label for="senderMessage">More to say?</label>
+          <textarea rows="8"  id="senderMessage" class="form-control" placeholder="Enter an additional message here."></textarea>
         </div>
 
 
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" id="submitContactForm" class="btn btn-primary">Submit</button>
         <small id="submitHelp" class="form-text text-muted">All information submitted from this page is strictly confidential.</small>
 
 
       </form>
     </div>
-
-    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-analytics.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-database.js"></script>
-
-    <script src="src/config.js"></script>
-    <script src="contactDatabase.js"></script>
-
   </body>
 </html>
