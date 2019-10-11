@@ -10,7 +10,6 @@ import { TopNavigationBarComponent } from './top-navigation-bar/top-navigation-b
 import { AboutMeComponent } from './about-me/about-me.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ResumeComponent } from './resume/resume.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -25,7 +24,6 @@ import { FooterComponent } from './footer/footer.component';
       {path: '', component: HomepageComponent},
       {path: 'about-me', component: AboutMeComponent},
       {path: 'resume', component: ResumeComponent},
-      {path: 'portfolio', component: PortfolioComponent},
       {path: 'contact', component: ContactComponent}]),
   ],
   declarations: [
@@ -34,7 +32,6 @@ import { FooterComponent } from './footer/footer.component';
     AboutMeComponent,
     HomepageComponent,
     ResumeComponent,
-    PortfolioComponent,
     ContactComponent,
     HeaderComponent,
     FooterComponent,
